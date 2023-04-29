@@ -1,0 +1,118 @@
+HTML File
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <section class="container">
+    <form>
+      <li class="fas fa-search"></li>
+      <input type="text" name="" id="search-item" placeholder="Search hear" onkeyup="search()">
+    </form>
+    <div class="product-list">
+      <div class="product">
+        <img
+          src="https://media.istockphoto.com/id/1328049157/photo/mens-short-sleeve-t-shirt-mockup-in-front-and-back-views.jpg?b=1&s=170667a&w=0&k=20&c=CZ5Emlrh-C4jzojJ8b8YBy1frxpQr6aMcLmEBrkty7Q="
+          alt="">
+        <div class="p-detail">
+          <h2>This is every thing</h2>
+          <h3>$33</h3>
+        </div>
+      </div>
+       <div class="product">
+        <img
+          src="https://media.istockphoto.com/id/1328049157/photo/mens-short-sleeve-t-shirt-mockup-in-front-and-back-views.jpg?b=1&s=170667a&w=0&k=20&c=CZ5Emlrh-C4jzojJ8b8YBy1frxpQr6aMcLmEBrkty7Q="
+          alt="">
+        <div class="p-detail">
+          <h2>This is every thing</h2>
+          <h3>$33</h3>
+        </div>
+      </div>
+       <div class="product">
+        <img
+          src="https://media.istockphoto.com/id/1328049157/photo/mens-short-sleeve-t-shirt-mockup-in-front-and-back-views.jpg?b=1&s=170667a&w=0&k=20&c=CZ5Emlrh-C4jzojJ8b8YBy1frxpQr6aMcLmEBrkty7Q="
+          alt="">
+        <div class="p-detail">
+          <h2>Hamza</h2>
+          <h3>$33</h3>
+        </div>
+      </div>
+       <div class="product">
+        <img
+          src="https://media.istockphoto.com/id/1328049157/photo/mens-short-sleeve-t-shirt-mockup-in-front-and-back-views.jpg?b=1&s=170667a&w=0&k=20&c=CZ5Emlrh-C4jzojJ8b8YBy1frxpQr6aMcLmEBrkty7Q="
+          alt="">
+        <div class="p-detail">
+          <h2>Usman</h2>
+          <h3>$33</h3>
+        </div>
+      </div>
+       <div class="product">
+        <img
+          src="https://media.istockphoto.com/id/1328049157/photo/mens-short-sleeve-t-shirt-mockup-in-front-and-back-views.jpg?b=1&s=170667a&w=0&k=20&c=CZ5Emlrh-C4jzojJ8b8YBy1frxpQr6aMcLmEBrkty7Q="
+          alt="">
+        <div class="p-detail">
+          <h2>Ali</h2>
+          <h3>$33</h3>
+        </div>
+      </div>
+       <div class="product">
+        <img
+          src="https://media.istockphoto.com/id/1328049157/photo/mens-short-sleeve-t-shirt-mockup-in-front-and-back-views.jpg?b=1&s=170667a&w=0&k=20&c=CZ5Emlrh-C4jzojJ8b8YBy1frxpQr6aMcLmEBrkty7Q="
+          alt="">
+        <div class="p-detail">
+          <h2>This is every thing</h2>
+          <h3>$33</h3>
+        </div>
+      </div>
+       <div class="product">
+        <img
+          src="https://media.istockphoto.com/id/1328049157/photo/mens-short-sleeve-t-shirt-mockup-in-front-and-back-views.jpg?b=1&s=170667a&w=0&k=20&c=CZ5Emlrh-C4jzojJ8b8YBy1frxpQr6aMcLmEBrkty7Q="
+          alt="">
+        <div class="p-detail">
+          <h2>This is every thing</h2>
+          <h3>$33</h3>
+        </div>
+      </div>
+       <div class="product">
+        <img
+          src="https://media.istockphoto.com/id/1328049157/photo/mens-short-sleeve-t-shirt-mockup-in-front-and-back-views.jpg?b=1&s=170667a&w=0&k=20&c=CZ5Emlrh-C4jzojJ8b8YBy1frxpQr6aMcLmEBrkty7Q="
+          alt="">
+        <div class="p-detail">
+          <h2>This is every thing</h2>
+          <h3>$33</h3>
+        </div>
+      </div>
+       <div class="product">
+        <img
+          src="https://media.istockphoto.com/id/1328049157/photo/mens-short-sleeve-t-shirt-mockup-in-front-and-back-views.jpg?b=1&s=170667a&w=0&k=20&c=CZ5Emlrh-C4jzojJ8b8YBy1frxpQr6aMcLmEBrkty7Q="
+          alt="">
+        <div class="p-detail">
+          <h2>This is every thing</h2>
+          <h3>$33</h3>
+        </div>
+      </div>
+       <div class="product">
+        <img
+          src="https://media.istockphoto.com/id/1328049157/photo/mens-short-sleeve-t-shirt-mockup-in-front-and-back-views.jpg?b=1&s=170667a&w=0&k=20&c=CZ5Emlrh-C4jzojJ8b8YBy1frxpQr6aMcLmEBrkty7Q="
+          alt="">
+        <div class="p-detail">
+          <h2>This is every thing</h2>
+          <h3>$33</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
+//
