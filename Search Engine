@@ -116,3 +116,103 @@ HTML File
 
 </html>
 //
+//
+//
+CSS File
+//
+//
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  background: rgb(240, 239, 243);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.container{
+  width: 375px;
+  height: 520px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 4px 4px 30px rgb(0, 0,0,0.06);
+  padding: 20px;
+  overflow-y:scroll;
+}
+.container::-webkit-scrollbar{
+  display:none;
+}
+.container form{
+  width: 100%;
+  border: 1px solid rgb(82,74,235);
+  border-radius: 4px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+}
+.container form input{
+  border:none;
+  outline: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 16px;
+  padding:8px 10px;
+}
+.product{
+  display:flex;
+  align-items:center;
+  cursor: pointer;
+  padding-bottom:15px;
+}
+.product img{
+  width:70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius:5px;
+}
+.product-list{
+  padding:20px 0px;
+}
+.product .p-detail{
+  padding-left:16px;
+}
+
+.product .p-detail h2{
+  font-size: 20px;
+  color:black;
+}
+
+.product .p-detail h3{
+  font-size: 18px;
+}
+//
+//
+//
+JS File
+//
+//
+const search=()=>{
+  const searchbox = document.getElementById("search-item").value.toUpperCase();
+  const storeitem = document.getElementById("product-list")
+  const product = document.querySelectorAll(".product")
+  const pname = document.getElementsByTagName("h2")
+  for(var i=0;i<pname.length;i++){
+    let match = product[i].getElementsByTagName('h2')[0];
+    if(match){
+      let textvalue = match.textContent || match.innerHTML
+      if(textvalue.toUpperCase().indexOf(searchbox)>-1){
+        product[i].style.display="";
+      }else{
+        product[i].style.display = "none";
+      }
+    }
+  }
+}
